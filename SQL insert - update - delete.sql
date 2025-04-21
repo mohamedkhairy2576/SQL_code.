@@ -36,7 +36,7 @@ values ('zainab', 'omar', 'sharqia', 27, 30),
        ('nadia', 'adel', 'sharqia', 26, 30);
 
 
--------- update 
+------------ update 
 select *from Student
 update Student 
 	set st_address = 'aswan' 
@@ -46,7 +46,7 @@ update Student
 	set st_address = 'cairo' 
 	where st_id between 1 and 8 ;
 
------------
+----------- delete
 
 delete from Student 
 where st_id = 17 ; 
